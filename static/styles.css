@@ -1,0 +1,38 @@
+* {
+    font-family: "Titillium Web", sans-serif;
+}
+
+.dream {
+    margin: 10px; 
+    background-color: rgb(154, 196, 230); 
+    border-radius: 15px; 
+    column-count: 2; 
+    column-gap: 0.25rem; 
+}
+
+.dream section {
+    margin: 10px; 
+    padding: 5px; 
+    padding-left: 20px; 
+    padding-bottom: 20px; 
+}
+
+.dream section p {
+    line-height: 2.5; 
+    margin-bottom: 2rem; 
+}
+
+.dream img {
+    padding-top: 15px; padding-bottom: 15px; 
+    margin-top: 10px; 
+    border-radius: 15px 50px 50px 15px;
+}
+
+.dream section button {
+    background-color: rgb(6 87 153); 
+    border-radius: 10%;
+    color: white; 
+    padding: 1rem; 
+    font-size: 15px; 
+    font-weight: bold; 
+}
