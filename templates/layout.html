@@ -16,13 +16,13 @@
         <!--maybe make it so that you can pass an active variable so that it highlights the currently active one-->
         <nav>
             {% block indexNav %}
-            <a href="index.html">The Dream</a>
+            <a href="/">The Dream</a>
             {% endblock %}
             {% block tutorialNav %}
-            <a href="tutorials.html">Tutorials</a>
+            <a href="{{ url_for('tutorials') }}">Tutorials</a>
             {% endblock %}
             {% block aboutmeNav %}
-            <a href="aboutme.html">About Me</a>
+            <a href="{{ url_for('aboutme') }}">About Me</a>
             {% endblock %}
         </nav>
 

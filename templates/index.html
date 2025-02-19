@@ -10,9 +10,9 @@
             Whether you're a student looking to learn more about the capabilities of AI or working professional looking to gain a deeper understanding of the tools you use in your day-to-day life, this website is for you! 
         </p>
         <div class="icons">
-            <a href="tutorials.html">
-                <button>Get Started</button>
-            </a>
+            <form action="{{ url_for('tutorials') }}">
+                <button type="submit">Get Started</button>
+            </form>
         </div>
     </section>
     <img src="{{ url_for('static', filename='robot-hand-blue.jpg') }}" alt="Robot hand touching blue sphere" width="700px">
